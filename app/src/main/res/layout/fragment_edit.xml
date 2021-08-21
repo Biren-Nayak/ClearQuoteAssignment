@@ -337,6 +337,26 @@
                         android:scaleType="centerCrop"
                         android:src="@drawable/ic_baseline_crop_24" />
 
+                    <ImageButton
+                        android:id="@+id/rotate_clock"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_rotate_90_degrees_cw_24" />
+
+                    <ImageButton
+                        android:id="@+id/rotate_counter_clock"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/transparent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_baseline_rotate_90_degrees_ccw_24" />
+
                 </LinearLayout>
             </HorizontalScrollView>
 

@@ -94,6 +94,17 @@ class EditFragment : Fragment(), View.OnClickListener {
             binding.cropImageView.setImageBitmap(binding.imageView.drawable.toBitmap())
         }
 
+        binding.rotateClock.setOnClickListener {
+            val bmp = binding.imageView.rotate(90F, binding.imageView.drawable.toBitmap())
+            binding.imageView.setNewImage(bmp, Bitmap.createBitmap(bmp))
+
+        }
+
+        binding.rotateCounterClock.setOnClickListener {
+            val bmp = binding.imageView.rotate(270F, binding.imageView.drawable.toBitmap())
+            binding.imageView.setNewImage(bmp, Bitmap.createBitmap(bmp))
+        }
+
 
         // Hidden Buttons
 
@@ -181,6 +192,7 @@ class EditFragment : Fragment(), View.OnClickListener {
         binding.pen.setColorFilter(color)
 
     }
+
 
 
     private fun colorSetter() {

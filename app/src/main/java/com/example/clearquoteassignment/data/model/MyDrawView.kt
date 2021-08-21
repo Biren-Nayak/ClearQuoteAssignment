@@ -74,6 +74,11 @@ class MyDrawView  : AppCompatImageView, OnTouchListener {
         mPaint.color = color
     }
 
+    fun rotate(degrees: Float, bmp: Bitmap): Bitmap {
+        mMatrix.apply { postRotate(degrees) }
+        return Bitmap.createBitmap(bmp, 0, 0, bmp.width, bmp.height, mMatrix, true)
+    }
+
     override fun onTouch(p0: View?, event: MotionEvent): Boolean {
         if (doodleEnabled) {
             when (event.action) {

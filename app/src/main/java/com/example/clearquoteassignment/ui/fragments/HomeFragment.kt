@@ -1,7 +1,6 @@
 package com.example.clearquoteassignment.ui.fragments
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.os.Bundle
@@ -19,7 +18,6 @@ import androidx.lifecycle.coroutineScope
 import androidx.navigation.fragment.findNavController
 import com.example.clearquoteassignment.Image
 import com.example.clearquoteassignment.databinding.FragmentHomeBinding
-import com.example.clearquoteassignment.ui.MainActivity
 import com.example.clearquoteassignment.utils.*
 
 class HomeFragment: Fragment() {
