@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ClearQuoteAssignment</string>
+    <string name="hello">Hello</string>
+    <string name="square_crop">Square Crop</string>
+    <string name="free_crop">Free Crop</string>
+    <string name="four_three">4:3</string>
+    <string name="sixteen_nine">16:9</string>
+</resources>
